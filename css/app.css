@@ -1,0 +1,171 @@
+body{
+  font-size: 16px;
+  color: #333;
+  font-family: arial;
+}
+footer{
+  padding: 2em 0;
+}
+h3{
+  font-size: 1.375em;
+  line-height: 22px;
+  padding-top: 0.6875em;
+}
+
+h3 span{
+  font-size: 16px;
+  color: #999999;
+  letter-spacing: 0px;
+}
+h4{
+  line-height: 22px;
+  color: #999;
+  font-size: 1.2em;
+}
+h5{
+  line-height: 22px;
+  font-size: 1.38em;
+}
+header{
+  background: #FAFAFA;
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.06);
+  height: 40px;
+  line-height: 40px;
+}
+header img{
+  margin: 0 auto;
+  display: block;
+  padding-top: 5px;
+}
+
+main{
+  padding: 2.25em 0 0;
+  background-size: 100%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: 0 130px;
+}
+main h1{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+main h2{
+  text-align: center;
+  font-size: 1em;
+  color: #666;
+  font-weight: 300;
+}
+
+
+section ul{
+  list-style:none;
+}
+section ul li{
+  line-height: 10px;
+}
+p{
+  color: #666666;
+  letter-spacing: 0px;
+  line-height: 18px;
+}
+
+#benefit{
+  padding: 4em 0;
+}
+#deal{
+  text-align: center;
+}
+#description{
+  padding: 2em 0 4em;
+}
+#iphone{
+  width: 100%;
+}
+#map{
+  background: #E9E5DB url('../img/bg-map.jpg') no-repeat;
+  background-size: cover;
+  padding: 10em 0;
+}
+
+#original, #deal{
+  background: #359FDE url('../img/bg-estaperfecto.jpg') no-repeat;
+  background-size: cover;
+  padding: 4em 0;
+}
+
+#original h3, #original p, #deal h3, #deal p{
+  text-align: center;
+  color: #fff;
+  font-style: normal;
+  font-weight: 300 !important;
+  font-family: arial;
+}
+
+
+#product-detail{
+  padding: 0;
+  margin: 0;
+}
+
+.benefits{
+  position: relative;
+}
+.benefits img{
+  position: absolute;
+  left: -3em;
+}
+
+.center{
+  text-align: center;
+}
+.resposive-image{
+  width: 100%;
+}
+.padding-d{
+  padding-bottom: 1em;
+}
+.padding-top{
+  padding-top: 2em;
+}
+
+
+@media (max-width: 400px) {
+  h5{
+    font-size: 1.2em;
+  }
+  section ul li{
+    font-size: .8em;
+  }
+
+  #iphone{
+    height: 250px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  #benefit{
+    padding: 3em 0 2em;
+  }
+  #benefit .padding-top{
+    padding-top: 0;
+  }
+  .benefits{
+    padding-bottom: 1em;
+  }
+
+  .benefits img{
+    position: relative;
+    display: block;
+    left: 45%;
+    margin 0 auto;
+    padding-bottom: 1em;
+  }
+
+  .mini-center{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+}
